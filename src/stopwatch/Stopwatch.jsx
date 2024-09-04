@@ -31,7 +31,7 @@ const StopWatch=()=>{
     }, [isRunning]);
 
 return(<div className={styles.mainDiv}>
-<h1>StopWatch</h1>
+<h1>Stopwatch</h1>
 <p>Time: {formatTime(timer)}</p>
 {!isRunning?
 <button style={{paddingLeft:"0.5rem",paddingRight:"0.5rem",borderRadius:"4px"}} onClick={()=>{setIsRunning(true)}}>Start</button>
